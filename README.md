@@ -4,7 +4,6 @@ This project contains ansible scripts to automate the launching of Solace VMR.
 
 ## Prerequisite
 1. Configure an AWS Security Group which allows inbound traffic to ports 80,8080,22,2222,55555 within the VPC that the VMR is to be launched
-2. Have the private key 
 2. (Optional) Launch a Solace VMR manually and create an admin CLI user.  Take a snapshot of the VMR instance. Record the AMI ID.
 
 ## Steps
