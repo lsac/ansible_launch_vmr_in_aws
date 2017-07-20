@@ -14,8 +14,8 @@ The ansible playbook launches a VMR, perform a 'show redundancy' using SEMPv1 an
         - <code>sudo apt-get install ansible</code>
 2. Set up the AWS access and secret keys in the environment settings; 
     - E.g. run the following from shell
-        - export AWS_ACCESS_KEY_ID="your access key id"
-        - export AWS_SECRET_ACCESS_KEY="your secret access key"
+        - <code>export AWS_ACCESS_KEY_ID="your access key id"</code>
+        - <code>export AWS_SECRET_ACCESS_KEY="your secret access key"</code>
     
 3. Modify vmr-vars/vmr.yml
     - update all the ec2_* values accordingly, specifically
